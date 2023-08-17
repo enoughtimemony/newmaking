@@ -1,0 +1,56 @@
+.main-page-box {
+  box-sizing: border-box;
+  display: flex;
+  border: 1px solid;
+  width: 33%;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main-page-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -100px;
+}
+.main-page-picture1 {
+  width: 300x;
+  height: 400px;
+}
+.main-page-text {
+  text-align: center;
+}
+.log-in {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.username {
+  width: 250px;
+  height: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 7px;
+  margin-bottom: 5px;
+}
+.password {
+  width: 250px;
+  height: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 7px;
+  margin-bottom: 5px;
+}
+.different-type {
+  display: flex;
+  justify-content: space-between;
+  
+}
+.login{
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.new-members{
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
